@@ -1,0 +1,2 @@
+source              : ./web_files
+destination         : ./web_files/_site

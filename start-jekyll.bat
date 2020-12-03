@@ -1,0 +1,1 @@
+docker run --rm --volume="%cd%/doc:/srv/jekyll" -it jekyll/jekyll:4.0 jekyll new .
