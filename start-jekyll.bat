@@ -1,1 +1,1 @@
-docker run --rm --volume="%cd%/doc:/srv/jekyll" -it jekyll/jekyll:4.0 jekyll new .
+docker run -p 8080:4000 --rm --volume="%cd%:/srv/jekyll" -it jekyll/jekyll:4.0 bundle exec jekyll serve --incremental --watch -d _site
